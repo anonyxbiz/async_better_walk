@@ -55,7 +55,7 @@ class Os(object):
             p(str(e))
         
 if __name__=="__main__":                       
-    dir = "."
+    dir = "/storage/emulated/0/download"
     async def m():
         app = await Os.init(dir=dir)
         
